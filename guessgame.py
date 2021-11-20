@@ -13,12 +13,12 @@ while guess_no!=generated_no:
     if guess_no<generated_no:
         print("Guessing...")
         time.sleep(1)
-        print("Numebr Is Small")
+        print("Entered Number Is Small")
         
     elif guess_no>generated_no:
         print("Guessing...")
         time.sleep(1)
-        print("Number Is Large")
+        print("Entered Number Is Large")
         
     elif guess_no==generated_no:
         print("Guessing...")
